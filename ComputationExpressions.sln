@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A42ED3D-F78D-4F23-AA5C-C78E0D3F92DD}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ComputationExpressions", "src\ComputationExpressions\ComputationExpressions.fsproj", "{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ElevationLib", "src\Lib\ElevationLib.fsproj", "{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4A456B4-AB1B-4C22-93C0-2EF9E1871AFA} = {4A42ED3D-F78D-4F23-AA5C-C78E0D3F92DD}
+		{3DD323E6-7AC9-42EB-8502-C1BBF23EBEEA} = {4A42ED3D-F78D-4F23-AA5C-C78E0D3F92DD}
+	EndGlobalSection
+EndGlobal
